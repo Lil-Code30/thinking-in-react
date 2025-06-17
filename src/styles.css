@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+@layer components {
+  .success {
+    @apply bg-[#ECFDF5] border border-[#065F46];
+
+    h1 {
+      @apply text-[#065F46];
+    }
+    p {
+      @apply text-[#047857];
+    }
+  }
+  .warning {
+    @apply bg-[#FFFBEB] border border-[#92400E];
+
+    h1 {
+      @apply text-[#92400E];
+    }
+    p {
+      @apply text-[#B45309];
+    }
+  }
+  .error {
+    @apply bg-[#FEF2F2] border border-[#92400E];
+
+    h1 {
+      @apply text-[#92400E];
+    }
+    p {
+      @apply text-[#B45309];
+    }
+  }
+  .neutral {
+    @apply bg-[#EFF6FF] border border-[#1E40AF];
+
+    h1 {
+      @apply text-[#1E40AF];
+    }
+    p {
+      @apply text-[#1C51B9];
+    }
+  }
+}
